@@ -1,0 +1,462 @@
+body {
+  border: 20px solid green;
+  margin: 0;
+  /* position: fixed; */
+  z-index: 10;
+  width: 100%;
+}
+/* header */
+header {
+  width: 1170px;
+  /* width: 100%; */
+  height: 120px;
+  margin: 0 auto;
+  /* background-color: grey; */
+}
+.logo {
+  float: left;
+  width: 200px;
+  height: 120px;
+  /* background-color: red; */
+  margin-right: 30px;
+}
+.header-right {
+  /* float: right; */
+  line-height: 120px;
+  /* background-color: grey; */
+}
+.header-right a {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 15px;
+  text-align: left;
+}
+.header-right a:hover {
+  color: green;
+  transition: 0.15s;
+}
+.header-right .official-supporter {
+  color: white;
+  background-color: green;
+  border-radius: 25px;
+  padding: 10px;
+}
+.header-right .official-supporter:hover {
+  color: white;
+}
+.menu-icon {
+  display: none;
+}
+/* delay-final */
+.delay-final {
+  background-color: rgb(201, 47, 47);
+  color: white;
+  width: 100%;
+  height: 90px;
+  margin: 0;
+}
+.delay-final .container h1,p {
+  text-align: center;
+  /* background-color: black; */
+}
+.delay-final h1 {
+  /* background-color: black; */
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 15px;
+}
+.delay-final a {
+  font-weight: 20px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.delay-final .container:hover {
+  text-decoration: underline white;
+}
+/* top-wrapper */
+.top-wrapper {
+  background-image: url("./img/mleagueback.png");
+  background-repeat: repeat;
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+}
+.top-wrapper h1 {
+  margin-top: 0;
+  padding-top: 10px;
+}
+.final-team img {
+  margin: 0 10px;
+  opacity: 0.9;
+}
+.final-date p,.next-date {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 3px 18px;
+  margin: 25px 10px 0;
+}
+.next-date {
+  background-color: black;
+  color: white;
+}
+/* middle-wrapper */
+.middle-wrapper {
+  text-align: center;
+  width: 100%;
+}
+.middle-wrapper h1 {
+  margin: 80px 0 0;
+}
+.middle-wrapper h3 {
+  margin: 10px 0;
+}
+.middle-wrapper p {
+  text-align: left;
+  width: 625px;
+  margin: 30px auto 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.middle-wrapper a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+.middle-wrapper a:hover {
+  border: 1px solid rgb(230, 230, 230);
+  background-color: rgb(230, 230, 230);
+  padding: 10px 50px;
+  border-radius: 22px;
+}
+/* ranking */
+/* container-team */
+.ranking {
+  height: 1200px;
+  text-align: center;
+}
+.ranking ul {
+  padding: 0 20px;
+}
+.container-team {
+  margin-bottom: 100px;
+}
+.container-team-rank {
+  /* width: 640px; */
+  /* width: 100%; */
+  margin: 0 auto;
+  padding: 0;
+  background-color: lightgrey;
+}
+.ranking h1 {
+  margin: 80px 0 15px;
+  font-size: 35px;
+}
+.ranking h3 {
+  margin-top: 0;
+}
+.ranking ul li {
+  list-style: none;
+}
+.team {
+  display: flex;
+  margin-bottom: 10px;
+}
+.team-score {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 50px;
+  margin: 0;
+  /* width: 200px; */
+}
+.team-score-name {
+  width: 300px;
+}
+.team-score-point {
+  display: flex;
+  float: right;
+}
+.team-score-add {
+  display: inline-block;
+  text-align: right;
+  max-width: 150px;
+  /* margin: 0 auto; */
+  /* margin: 0 32px 0 10px; */
+}
+.team-score-diff {
+  text-align: right;
+  width: 150px;
+  justify-content: right;
+  /* margin: 0 auto; */
+}
+.team-wrap {
+  display: flex;
+  width: 100%;
+  line-height: 50px;
+}
+.team-wrap .team-score {
+  text-align: left;
+}
+.team-score span {
+  height: 20px;
+  margin: auto 0;
+  margin-right: 20px;
+  color: white;
+  font-size: 28px;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+.team-score .team-number {
+  background-color: red;
+  border: 1px solid red;
+}
+.ranking a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 120px;
+  background-color: green;
+  border: 3px solid green;
+  border-radius: 25px;
+  /* margin: 200px 0; */
+}
+.ranking a:hover {
+  background-color: white;
+  color: green;
+}
+/* container-person */
+.list-flex {
+  width: 960px;
+  margin: 0 auto;
+}
+.person {
+  width: 300px;
+  margin-bottom: 7px;
+}
+.list-one .person {
+  margin-bottom: 10px;
+}
+.list-two .person {
+  display: flex;
+  margin-bottom: 10px;
+  width: 300px;
+  color: grey;
+}
+.list-two .person-score {
+  margin: 0 auto;
+}
+.list-three .person {
+  display: flex;
+}
+.person-score {
+  font-size: 14px;
+  line-height: 36px;
+  margin: 0;
+}
+.person-score-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.person-score-add {
+  text-align: center;
+  padding-left: 25px;
+  margin: 0 auto;
+  width: 50px;
+}
+.person-wrap {
+  display: flex;
+}
+.person-wrap img {
+  border-radius: 50%;
+  margin: 2px 10px 0 20px;
+}
+.person-wrap .person-score {
+  width: 70px;
+  text-align: left;
+}
+.person-one {
+  margin: 0 20px 0 10px;
+}
+.person-one .person-fts {
+  margin: 0 5px 0 24px;
+}
+.person-no-o {
+  border: 1px solid green;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+.person-score span {
+  height: 18px;
+  margin-left: 24px;
+  font-size: 14px;
+  padding: 5px 7px;
+}
+.person-no-tt {
+  font-weight: bold;
+}
+.person-no-tt .no-tt {
+  font-size: 18px;
+}
+.person-score .no-o {
+  margin-left: 24px;
+  font-size: 18px;
+  color: green;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px 7px;
+}
+.list-flex {
+  display: flex;
+}
+.division {
+  width: 285px;
+  margin: 0 20px;
+}
+.all-rank {
+  margin-top: 40px;
+}
+.all-rank-res button, .all-rank-one button, .all-rank-two button {
+  display: none;
+}
+.all-rank button {
+  border: 2px solid green;
+  border-radius: 25px;
+  padding: 5px 60px;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: white;
+}
+.all-rank button:hover {
+  background-color: lightgrey;
+  transition: 0.5s;
+}
+/* NEWS */
+.news-title {
+  text-align: center;
+}
+.div {
+  width: 312px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.div p {
+  text-align: left;
+  font-size: 14px;
+  color: lightgray;
+  margin: 10px 0 0 0;
+}
+.div h2 {
+  font-size: 18px;
+  margin: 0;
+  color: black;
+}
+.div a {
+  text-decoration: none;
+}
+.div img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.3s;
+}
+.description p {
+  width: 200px;
+  margin: 40px auto 150px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 20px;
+  background-color: green;
+  border: 3px solid green;
+  border-radius: 25px;
+}
+.description p:hover {
+  background-color: white;
+  color: green;
+}
+.youtube {
+  margin: 0 auto;
+}
+.youtube a {
+  text-decoration: none;
+  color: black;
+}
+.youtube a:hover {
+  color: green;
+}
+.youtube p {
+  margin: 0;
+}
+.link {
+  width: 100%;
+  margin: 0 auto;
+}
+.list-flex-one {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+.fab {
+  margin: 0 30px;
+}
+footer {
+  position: relative;
+  background-color: black;
+  height: 830px;
+  width: 100%;
+  margin: 100px auto 0;
+  text-align: center;
+  padding-top: 40px;
+}
+.footer-bird {
+  position: absolute;
+  top: -78px;
+  left: 65px;
+}
+footer .container {
+  width: 100%;
+  margin: 0 auto;
+}
+footer .container h2 {
+  color: white;
+  margin: 30px auto 50px;
+}
+footer .container svg, .list-flex-sponsor-q {
+  margin: 0 10px;
+  text-align: center;
+}
+.list-flex-picture {
+  /* width: 100%; */
+  margin: 0 auto;
+}
+.list-flex-sponsor-q, footer p {
+  display: inline-block;
+  color: grey;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.list-flex-sponsor, .list-flex-owner {
+  display: flex;
+  width: 700px;
+  margin: 0 auto 30px;
+  padding: 0;
+  /* background-color: lightblue; */
+}

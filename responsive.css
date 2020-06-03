@@ -1,0 +1,266 @@
+/* レスポンシブ */
+@media(max-width:767px){
+  body {
+    width: 100%;
+    border: 9px solid green;
+    z-index: 10;
+  }
+  header {
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    /* background-color: grey; */
+  }
+  header .container {
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    line-height: 55px;
+    float: right;
+    width: 30px;
+    margin: -5px 0 0 20px;
+  }
+  .menu-icon span {
+    height: 30px;
+    width: 30px;
+  }
+  .header-left {
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 8px;
+    line-height: 55px;
+  }
+  .logo {
+    width: 150px;
+    height: 38.453px;
+    margin: auto 0;
+    line-height: 55px;
+  }
+  .delay-final h1 {
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .delay-final a {
+    font-size: 14px; 
+  }
+  .top-wrapper {
+    height: 850px;
+  }
+  .top-wrapper h1 {
+    padding-top: 35px;
+    font-size: 20px;
+  }
+  .final-team, .final-date {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .final-team img {
+    width: 136px;
+    height: 188.156px;
+    margin-bottom: 10px;
+  }
+  .final-date p {
+    margin-top: 10px;
+  }
+  .top-wrapper {
+    height: 600px;
+  }
+  .middle-wrapper h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .middle-wrapper h3 {
+    font-size: 16px;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .middle-wrapper p {
+    line-height: 28px;
+    max-width: 670px;
+    margin-bottom: 40px;
+  }
+  .middle-wrapper a {
+    border: 1px solid rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+    padding: 10px 50px;
+    border-radius: 22px;
+  }
+  .middle-wrapper a:hover {
+    border: 2px solid rgb(230, 230, 230);
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 22px;
+  }
+  .ranking h1 {
+    font-size: 26px;
+    margin: 90px 0 0;
+  }
+  .ranking h3 {
+    font-size: 16px;
+  }
+  .team-score {
+    font-size: 14px;
+    line-height: 50px;
+  }
+  .team-score span {
+    font-size: 16px;
+    padding: 7px 3px;
+  }
+  .team-wrap {
+    width: 100%;
+  }
+  .team-wrap img {
+    height: 50px;
+    width: 50px;
+  }
+  .team-score-diff {
+    width: 50px;
+    margin-left: 10px;
+    text-align: right;
+  }
+  .description {
+    width: 100%;
+  }
+  .description a {
+    width: 100%;
+    margin: 40px auto 150px;
+    font-size: 12px;
+    padding: 10px auto;
+  }
+  .list-flex {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+  }
+  .person {
+    width: 100%;
+    margin: 0 auto;
+    /* line-height:  */
+  }
+  .person-score {
+    font-size: 14px;
+    line-height: 36px;
+    margin: 0;
+  }
+  .person-score-title {
+    margin: 55px 0 10px;
+    font-size: 16px;
+  }
+  .ranking {
+    height: 1830px;
+  }
+  .list-two .person {
+    width: 100%;
+  }
+  .list-three .person-score {
+    width: 150px;
+    margin: 0 auto;
+  }
+  .list-three .person-wrap {
+    margin: 0 auto;
+  }
+  .division {
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+  .all-rank button:hover {
+    background-color: white;
+  }
+  .all-rank-res {
+    text-align: center;
+    width: 245px;
+    margin: 0 auto;
+  }
+  .all-rank-res button {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .all-rank-one button, .all-rank-two button, .all-rank-three button {
+    display: none;
+  }
+  .news-title h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .news-title h3 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .div img {
+    width: 400px;
+    height: 272.531px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+  }
+  .div p {
+    color: black;
+    font-size: 10px;
+  }
+  .div h2, .youtube p, .description p {
+    font-size: 14px;
+  }
+  .youtube {
+    width: 100%;
+    margin: 0 auto 10px;
+    padding: 0 20px;
+  }
+  .youtube iframe {
+    width: 684px;
+    height: 385px;
+  }
+  .link {
+    padding-top: 50px;
+  }
+  .footer-bird {
+    top: -60px;
+    left: 20px;
+  }
+  .footer-bird svg {
+    width: 52px;
+    height: 78.5px;
+  }
+  .container #home {
+    width: 43px;
+    height: 64.45px;
+  }
+  footer {
+    height: 680px;
+  }
+  .list-flex-sponsor {
+    width: 120px;
+    height: 34.172px;
+  }
+  .list-flex-sponsor-q {
+    font-size: 11px;
+    width: 120px;
+    margin: 0px;
+  }
+  .list-flex-owner {
+    margin: 0 auto;
+  }
+  .list-flex-owner svg {
+    width: 70px;
+    height: 14.922px;
+  }
+  .list-flex-picture {
+    margin: 0 5px;
+  }
+  footer p {
+    margin: 0;
+    font-size: 10px;
+  }
+  #copyright {
+    margin-top: 100px;
+    /* height:;  */
+    border-top: 1px solid grey;
+  }
+}
